@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кошик — Chrome Hearts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Chrome Hearts</a>
+        <nav>
+            <a href="index.html">Головна Сторінка</a>
+            <a href="chrom.html">Акції</a>
+        </nav>
+        <div class="header-icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+
+            <a href="cart.html" class="cart-icon">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+<main class="cart-page">
+    <h2 class="section-title">Ваш кошик</h2>
+    <div class="cart-list"></div>
+    <div class="cart-total">
+        <span>Загальна сума:</span>
+        <strong>0 грн</strong>
+    </div>
+    <div class="checkout-form">
+        <h3>Оформлення замовлення</h3>
+
+        <form>
+            <input type="text" placeholder="Імʼя" required>
+            <input type="tel" placeholder="Телефон" required>
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Коментар"></textarea>
+
+            <button type="submit" class="checkout-btn">
+                Підтвердити замовлення
+            </button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <div class="copyright">
+        &copy; 2026 Chrome Hearts
+    </div>
+</footer>
+
+</body>
+<script src="cart.js"></script>
+</html>
